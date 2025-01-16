@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/moondawn/OneDrive/%EB%AC%B8%EC%84%9C/Nebula/workspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Cookie (Minecraft 1.20.1)",
+    "description": "Cookie Server",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "cookie.dol-bom.com",
+    "discord": {
+      "shortId": "Cookie Server",
+      "largeImageText": "Cookie Create Server",
+      "largeImageKey": "white"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.10"
+  },
+  "untrackedFiles": []
+}

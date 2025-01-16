@@ -1,0 +1,970 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Cookie-1.20.1",
+      "name": "Cookie (Minecraft 1.20.1)",
+      "description": "Cookie Server",
+      "icon": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/icon.png",
+      "version": "1.0.0",
+      "address": "cookie.dol-bom.com",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "Cookie Server",
+        "largeImageText": "Cookie Create Server",
+        "largeImageKey": "white"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://mxxndawn.github.io/cookieserver/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "c9e83fbc02fe5c3be931c2b164e6750c",
+                "url": "https://mxxndawn.github.io/cookieserver/repo/versions/1.20.1-fabric-0.16.10/1.20.1-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://mxxndawn.github.io/cookieserver/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://mxxndawn.github.io/cookieserver/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://mxxndawn.github.io/cookieserver/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://mxxndawn.github.io/cookieserver/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://mxxndawn.github.io/cookieserver/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://mxxndawn.github.io/cookieserver/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://mxxndawn.github.io/cookieserver/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team.creative:ambientsounds:6.1.4@jar",
+          "name": "AmbientSounds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 83889009,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/AmbientSounds_FABRIC_v6.1.4_mc1.20.1.jar",
+            "MD5": "14433d748d7e46b21dee75b806047d8a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1064362,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/appleskin-fabric-mc1.20.1-2.5.1.jar",
+            "MD5": "723370be246a876144ae424cbbfd60f4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.blay09.mods.balm:balm-fabric:7.3.10@jar",
+          "name": "Balm",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 411509,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/balm-fabric-1.20.1-7.3.10.jar",
+            "MD5": "476055f519beb0e0134302faf79bf6d2"
+          }
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.3.2.161@jar",
+          "name": "Better Advancements",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 73334,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/BetterAdvancements-Fabric-1.20.1-0.3.2.161.jar",
+            "MD5": "036fadf69a4eec5cfd765e1663573be8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.socol:betterthirdperson:1.9.0@jar",
+          "name": "Better Third Person",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 55504,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/BetterThirdPerson-Fabric-1.20-1.9.0.jar",
+            "MD5": "abefae2dbfc50b8b180908e3c8933bb3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.tterrag:blur:3.1.0@jar",
+          "name": "Blur (Fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 164085,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/blur-3.1.0.jar",
+            "MD5": "5c2350374a817c510596dc2e96d5a20a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.johni0702.minecraft:bobby:5.0.1@jar",
+          "name": "Bobby",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 799098,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/bobby-5.0.1.jar",
+            "MD5": "2aa8b606f9372c9a17f66ed5111d5b0e"
+          }
+        },
+        {
+          "id": "net.blay09.mods:clienttweaks:11.1.0@jar",
+          "name": "Client Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 132737,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/clienttweaks-fabric-1.20-11.1.0.jar",
+            "MD5": "8d38ac00261d59fcd3d9bf6a1d942027"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.136@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1172214,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
+            "MD5": "45d8bada7797af61d1f5543313b1f9f0"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.20.1@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1016063,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/continuity-3.0.0+1.20.1.jar",
+            "MD5": "d180631d4db7588393f1d0c280593bc3"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1-j-build.1631+mc1.20.1@jar",
+          "name": "Create",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 24841934,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/create-fabric-0.5.1-j-build.1631+mc1.20.1.jar",
+            "MD5": "48de208df4154d2149101d351148569b"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.24@jar",
+          "name": "CreativeCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1208841,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/CreativeCore_FABRIC_v2.12.24_mc1.20.1.jar",
+            "MD5": "ab044fdd2ad3dbba64f4000777dc973d"
+          }
+        },
+        {
+          "id": "com.redlimerl:detailab:2.6.3+1.20.1-fabric@jar",
+          "name": "Detail Armor Bar",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57045,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/DetailArmorBar-2.6.3+1.20.1-fabric.jar",
+            "MD5": "65bf41573a9920ea732beb6e9564208a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.easyshulkerboxes:easyshulkerboxes:8.0.2@jar",
+          "name": "Easy Shulker Boxes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 616123,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/EasyShulkerBoxes-v8.0.2-1.20.1-Fabric.jar",
+            "MD5": "ce884c3d4041b34bf0a77249ebcb9e9c"
+          }
+        },
+        {
+          "id": "ru.tpsd.eatinganimationmod:eatinganimationid:1.20+1.9.61@jar",
+          "name": "Eating Animation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1218710,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/eating-animation-1.20+1.9.61.jar",
+            "MD5": "090eeadcff74ce255e97285f8ab56472"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.emi.emi.platform:emi:1.1.19+1.20.1+fabric@jar",
+          "name": "EMI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1027168,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/emi-1.1.19+1.20.1+fabric.jar",
+            "MD5": "793bfea7034085fc0283e7f3f2a49400"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444272,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/entity_model_features_fabric_1.20.1-2.4.1.jar",
+            "MD5": "9979ce497513b57a72175d80167a3fe5"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 652400,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/entity_texture_features_fabric_1.20.1-6.2.9.jar",
+            "MD5": "69e81059aa60c49bc9c97918d4640edd"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.2@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 68941,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/entityculling-fabric-1.7.2-mc1.20.1.jar",
+            "MD5": "734c6af56419b17af48afe926acbfd8f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.3+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107985,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/fabric-api-0.92.3+1.20.1.jar",
+            "MD5": "dc37eff29b709467379bc41ae4f721b4"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.0+kotlin.2.1.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7089756,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/fabric-language-kotlin-1.13.0+kotlin.2.1.0.jar",
+            "MD5": "f6623d8c006095c4e08323f084e6c00e"
+          }
+        },
+        {
+          "id": "randommcsomethin.fallingleaves:fallingleaves:1.15.6@jar",
+          "name": "Falling Leaves",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 156773,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/fallingleaves-1.15.6+1.20.1.jar",
+            "MD5": "1d13a592b3c329e2bc10b658161e8429"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.1@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 396955,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.1-1.20.1-Fabric.jar",
+            "MD5": "0842b1a68c115149c95a25e14d67acad"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.3.3+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 242845,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/ImmediatelyFast-Fabric-1.3.3+1.20.4.jar",
+            "MD5": "9057e10b1a666b5684d8eeee0b734d41"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.34+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105359,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/indium-1.0.34+mc1.20.1.jar",
+            "MD5": "91f3ce08edec42ee8f6b45fd6ae0c8b3"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.11@jar",
+          "name": "Inventory Profiles Next",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1449792,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionaloff/InventoryProfilesNext-fabric-1.20-1.10.11.jar",
+            "MD5": "e14b17efc9578d28f7c259d5c8514fc8"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "me.pieking1215:invmove:0.8.4@jar",
+          "name": "InvMove",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 124710,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/InvMove-1.20-0.8.4-Fabric.jar",
+            "MD5": "afaa392904685061c677cd386565b057"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.5+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2730664,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/iris-1.7.5+mc1.20.1.jar",
+            "MD5": "902528a82a843300ecf9027af9f8fb8c"
+          }
+        },
+        {
+          "id": "top.leonx:irisflw:1.1.4@jar",
+          "name": "Iris Flywheel Compat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 91535,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/iris-flywheel-compat-fabric1.20.1+1.1.4.jar",
+            "MD5": "58f62d8edae68955d7d0139047e544c7"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.12.0+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 570414,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/Jade-1.20-Fabric-11.12.0.jar",
+            "MD5": "a9c8ad0ba6cbc33278f0ad85b30be533"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:jadeaddons:5.4.0+fabric@jar",
+          "name": "Jade Addons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 86538,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/JadeAddons-1.20.1-Fabric-5.4.0.jar",
+            "MD5": "52f442ab940107edf6f95f88a47b6965"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.106@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1392720,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/jei-1.20.1-fabric-15.20.0.106.jar",
+            "MD5": "f2536f0f14f67847634ae70d3ca79348"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 278357,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/JustEnoughResources-Fabric-1.20.1-1.4.0.247.jar",
+            "MD5": "e4540cb5e13b538b31c0b3b99e86cbc2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.3@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 185895,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/krypton-0.2.3.jar",
+            "MD5": "3bf353c1ab576b57c003109c079e2ec8"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14531,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/lazydfu-0.1.3.jar",
+            "MD5": "b36e83f424c5bb5100a3e8ffea0c6ce7"
+          }
+        },
+        {
+          "id": "fuzs.leavemybarsalone:leavemybarsalone:8.0.0@jar",
+          "name": "Leave My Bars Alone",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 48112,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/LeaveMyBarsAlone-v8.0.0-1.20.1-Fabric.jar",
+            "MD5": "012d8e17e08c7361b016739604f22596"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.anti_ad.mc:libipn:4.0.2@jar",
+          "name": "LibIPN",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 702814,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/libIPN-fabric-1.20-4.0.2.jar",
+            "MD5": "8e2cc58f5a9149549f544d4a27224646"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.2@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 645865,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.2.jar",
+            "MD5": "026ca4110d57f16f701b400ad5d2ca26"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77943,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "MD5": "3138c776d370c90603938eb54d17469a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.9.0@jar",
+          "name": "NotEnoughAnimations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 440757,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/notenoughanimations-fabric-1.9.0-mc1.20.1.jar",
+            "MD5": "09de2e674c18d339108a35e47713856f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.pickupnotifier:pickupnotifier:8.0.0@jar",
+          "name": "Pick Up Notifier",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 96114,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/PickUpNotifier-v8.0.0-1.20.1-Fabric.jar",
+            "MD5": "b9f9257a7b71de4820e115cd9b67d2b5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.10.1+1.20.1@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5664952,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/PresenceFootsteps-1.10.1+1.20.1.jar",
+            "MD5": "4d9d64890b7b90641ce6be7d0c9cd3c6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.25@jar",
+          "name": "Puzzles Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 980317,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/PuzzlesLib-v8.1.25-1.20.1-Fabric.jar",
+            "MD5": "49793f101337dcf4eaa05bf7bb63cd5f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.7.2+mc1.20.1-build.101@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77304,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+            "MD5": "0db2ef332dd00de8c64e34f192317118"
+          }
+        },
+        {
+          "id": "com.replaymod.core:replaymod:1.20.1-2.6.20@jar",
+          "name": "Replay Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 14003111,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionaloff/replaymod-1.20.1-2.6.20.jar",
+            "MD5": "09d29d6ab2e8842c05f719996d40f287"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.7.4@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 480015,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/skinlayers3d-fabric-1.7.4-mc1.20.1.jar",
+            "MD5": "3b847e15a1342937733226036b6bc583"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.shwg:smoothswapping:0.9.3.1@jar",
+          "name": "Smooth Swapping",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 61986,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/smoothswapping-0.9.3.1-1.20.2-fabric.jar",
+            "MD5": "b4410e1317c568a4cd429e62f614dcd8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:sodium-extra:0.5.4+mc1.20.1-build.115@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385539,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/sodium-extra-0.5.4+mc1.20.1-build.115.jar",
+            "MD5": "9eaed09a486eee9a1326de5dd80faa0a"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 968419,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
+            "MD5": "9880bae748957d1cb6c4de50c8e0452a"
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.9@jar",
+          "name": "Sodium Options API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 658268,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/sodiumoptionsapi-fabric-1.0.9-1.20.1.jar",
+            "MD5": "bac34a068a7ea592a12c3f550e6acb82"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.20.1-3.20.17.1.60@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 948244,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/sophisticatedbackpacks-1.20.1-3.20.17.1.60.jar",
+            "MD5": "9ed8f759c100ca9b25cb652641b49e63"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.20.1-0.7.12.2.96@jar",
+          "name": "Sophisticated Core",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3137887,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/sophisticatedcore-1.20.1-0.7.12.2.96.jar",
+            "MD5": "331bda08190cc7c28469f0ee77eafa57"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.4.8@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 195673,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/sound-physics-remastered-fabric-1.20.1-1.4.8.jar",
+            "MD5": "0a7627607b9285d870ff80c0ec212104"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:starlight:1.1.2+fabric.dbc156f@jar",
+          "name": "Starlight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 127368,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/starlight-1.1.2+fabric.dbc156f.jar",
+            "MD5": "a0b391bf55891502c2074bd078bb5899"
+          }
+        },
+        {
+          "id": "fuzs.stylisheffects:stylisheffects:8.0.2@jar",
+          "name": "Stylish Effects",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 119425,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/StylishEffects-v8.0.2-1.20.1-Fabric.jar",
+            "MD5": "4b61b8f1c107d81add2ca46aa1700113"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xyz.trivaxy:tia:1.20-1.1@jar",
+          "name": "Tiny Item Animations",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18492,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/tia-1.20-1.1-fabric.jar",
+            "MD5": "262aef6a6587de46b8238ca1144deea5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:24.7.1@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1653085,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/Xaeros_Minimap_24.7.1_Fabric_1.20.jar",
+            "MD5": "8095b37d674b0b373fc9f12018271f8a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.39.2@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 950403,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/optionalon/XaerosWorldMap_1.39.2_Fabric_1.20.jar",
+            "MD5": "56fd9ece31a86eb92b34f2285ff02a9f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Fabric-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1396331,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/fabricmods/required/YungsApi-1.20-Fabric-4.0.6.jar",
+            "MD5": "25624d7157f4b60827c4b6d06c0b8fc0"
+          }
+        },
+        {
+          "id": "FreshAnimations_v1.9.2.zip",
+          "name": "FreshAnimations_v1.9.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 516256,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/resourcepacks/FreshAnimations_v1.9.2.zip",
+            "MD5": "ebdaffde1a25273994c74b5d9ec21e1f",
+            "path": "resourcepacks/FreshAnimations_v1.9.2.zip"
+          }
+        },
+        {
+          "id": "Godo - Font Pack.zip",
+          "name": "Godo - Font Pack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 735693,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/resourcepacks/Godo%20-%20Font%20Pack.zip",
+            "MD5": "c13ececbd43aae3d5ac72f21b11a3649",
+            "path": "resourcepacks/Godo - Font Pack.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.4.01.2.zip",
+          "name": "BSL_v8.4.01.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1105709,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/BSL_v8.4.01.2.zip",
+            "MD5": "d8f5cc79fc4be47936362198bd5dbe6d",
+            "path": "shaderpacks/BSL_v8.4.01.2.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.3.zip",
+          "name": "ComplementaryReimagined_r5.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 446656,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.3.zip",
+            "MD5": "16aed916088bde7a7e4a252e3d7ebcda",
+            "path": "shaderpacks/ComplementaryReimagined_r5.3.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.3.zip",
+          "name": "ComplementaryUnbound_r5.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 446661,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.3.zip",
+            "MD5": "50893f00c06b63dfd140dbcac22cc69f",
+            "path": "shaderpacks/ComplementaryUnbound_r5.3.zip"
+          }
+        },
+        {
+          "id": "MakeUp-UltraFast-9.1b.zip",
+          "name": "MakeUp-UltraFast-9.1b.zip",
+          "type": "File",
+          "artifact": {
+            "size": 367518,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/MakeUp-UltraFast-9.1b.zip",
+            "MD5": "fe94f609907d89a91a6ad4b7a6bc87d0",
+            "path": "shaderpacks/MakeUp-UltraFast-9.1b.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 Extreme-VL.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 Extreme-VL.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142504,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Extreme-VL.zip",
+            "MD5": "82a198c41b07f33a7ebb1b9d27ada3f0",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Extreme-VL.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 Extreme.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 Extreme.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142502,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Extreme.zip",
+            "MD5": "338480bda47c115b212f61031b50c89d",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Extreme.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 High-MB.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 High-MB.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142542,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20High-MB.zip",
+            "MD5": "a95a64461790672a6f9e559a6e5f3eef",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 High-MB.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 High.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 High.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142499,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20High.zip",
+            "MD5": "aa6052030de84b72246927ad00e068f2",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 High.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 Lite.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142508,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Lite.zip",
+            "MD5": "ceba4ca74a1e49636cfe96417cadf790",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Lite.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.52 Medium.zip",
+          "name": "Sildur's Vibrant Shaders v1.52 Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142509,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.52%20Medium.zip",
+            "MD5": "73ac2677df6b146ff789c06c73ca67d1",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.52 Medium.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV89.0§r§l.zip",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV89.0§r§l.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3180580,
+            "url": "https://mxxndawn.github.io/cookieserver/servers/Cookie-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV89.0%C2%A7r%C2%A7l.zip",
+            "MD5": "ab0247fddf9b4aa21343f0c0ae7aaf29",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV89.0§r§l.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
