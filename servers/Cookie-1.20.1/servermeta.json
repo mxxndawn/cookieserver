@@ -8,8 +8,8 @@
     "address": "cookie.dol-bom.com",
     "discord": {
       "shortId": "Cookie Server",
-      "largeImageText": "Cookie Create Server",
-      "largeImageKey": "white"
+      "largeImageText": "test large 1",
+      "largeImageKey": "test large 2"
     },
     "mainServer": true,
     "autoconnect": true
